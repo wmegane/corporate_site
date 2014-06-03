@@ -1,7 +1,25 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "16921",
+"creatorBuild": "17018",
 "files": {
+	"\/completion.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/completion.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/confirm.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/confirm.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/bootstrap.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -20,10 +38,19 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/flaticon.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/flaticon.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/freelancer.css": {
 		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
+		"ignore": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/css\/freelancer.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
@@ -515,79 +542,13 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/img\/portfolio\/cabin.png": {
-		"fileType": 32768,
+	"\/img\/nashiro.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 36514,
-		"inputAbbreviatedPath": "\/img\/portfolio\/cabin.png",
-		"outputAbbreviatedPath": "\/img\/portfolio\/cabin.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/portfolio\/cake.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 17068,
-		"inputAbbreviatedPath": "\/img\/portfolio\/cake.png",
-		"outputAbbreviatedPath": "\/img\/portfolio\/cake.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/portfolio\/circus.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 27984,
-		"inputAbbreviatedPath": "\/img\/portfolio\/circus.png",
-		"outputAbbreviatedPath": "\/img\/portfolio\/circus.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/portfolio\/game.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 25896,
-		"inputAbbreviatedPath": "\/img\/portfolio\/game.png",
-		"outputAbbreviatedPath": "\/img\/portfolio\/game.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/portfolio\/safe.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 19240,
-		"inputAbbreviatedPath": "\/img\/portfolio\/safe.png",
-		"outputAbbreviatedPath": "\/img\/portfolio\/safe.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/portfolio\/submarine.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 24330,
-		"inputAbbreviatedPath": "\/img\/portfolio\/submarine.png",
-		"outputAbbreviatedPath": "\/img\/portfolio\/submarine.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/profile.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 10284,
-		"inputAbbreviatedPath": "\/img\/profile.png",
-		"outputAbbreviatedPath": "\/img\/profile.png",
+		"initialSize": 323787,
+		"inputAbbreviatedPath": "\/img\/nashiro.jpg",
+		"outputAbbreviatedPath": "\/img\/nashiro.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -678,65 +639,43 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/less\/freelancer.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
+	"\/js\/jquery.vticker.min.js": {
+		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/less\/freelancer.less",
-		"outputAbbreviatedPath": "\/css\/freelancer.css",
+		"inputAbbreviatedPath": "\/js\/jquery.vticker.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/jquery.vticker.min-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
-	"\/less\/mixins.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
+	"\/reply.php": {
+		"fileType": 8192,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/less\/mixins.less",
-		"outputAbbreviatedPath": "\/css\/mixins.css",
+		"inputAbbreviatedPath": "\/reply.php",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
+		"outputPathIsSetByUser": 0
 		},
-	"\/less\/variables.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
+	"\/sformmail.php": {
+		"fileType": 8192,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/less\/variables.less",
-		"outputAbbreviatedPath": "\/css\/variables.css",
+		"inputAbbreviatedPath": "\/sformmail.php",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
+		"outputPathIsSetByUser": 0
+		},
+	"\/template.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/template.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
@@ -807,10 +746,6 @@
 			"active": 0,
 			"flagValue": 3
 			},
-		"no-unnecessary_fat_arrows": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"no_backticks": {
 			"active": 1,
 			"flagValue": -1
@@ -865,6 +800,10 @@
 			},
 		"no_unnecessary_double_quotes": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"non_empty_constructor_needs_parens": {
