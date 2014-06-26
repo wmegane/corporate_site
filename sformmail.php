@@ -139,18 +139,9 @@ function Err($err) { // エラー表示用
 <meta http-equiv="Content-Type" content="text/html; charset={$internal_enc}" />
 <title>エラー：$err</title></head>
 <body style="font-size: 12px; line-height: 1.8em;">
+<?php include_once("analyticstracking.php") ?>
 <strong>エラー : </strong>$err<br>
 <input type="button" value="戻る" onclick="history.back();">
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  
-    ga('create', 'UA-51728793-1', 'wmegane.com');
-    ga('send', 'pageview');
-    ga(‘set’, ‘&uid’, {{USER_ID}}); // ログインしている user_id を使用してUser-ID を設定します。  
-  </script>
 
 </body></html>
 EOM;
