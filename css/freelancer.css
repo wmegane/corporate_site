@@ -1,4 +1,5 @@
 body {
+    font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     overflow-x: hidden;
 }
 
@@ -26,13 +27,13 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     font-weight: 700;
 }
 
 hr.star-light,
 hr.star-primary {
-    margin: 25px auto 30px;
+    margin: 25px auto 50px;
     padding: 0;
     max-width: 250px;
     border: 0;
@@ -92,7 +93,7 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     font-size: 2em;
     font-weight: 700;
 }
@@ -142,7 +143,7 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     font-weight: 700;
 }
 
@@ -169,7 +170,7 @@ section {
 
 section h2 {
     margin: 0;
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 section.success {
@@ -480,7 +481,7 @@ hr.star-light:after, hr.star-primary:after {
 }
 
 .featurette-heading {
-	font-size: 30px;
+	font-size: 2em;
 }
 
 /* RESPONSIVE CSS */
@@ -488,9 +489,9 @@ hr.star-light:after, hr.star-primary:after {
 @media (max-width: 1200px) {
 
 .featurette {margin: 50px 0;}
-.featurette-image.pull-left {margin-right: 20px;}
-.featurette-image.pull-right {margin-left: 20px;}
-.featurette-heading {font-size: 35px;}
+.featurette-image.pull-left {margin-right: 25px;}
+.featurette-image.pull-right {margin-left: 25px;}
+.featurette-heading {font-size: 2em;}
 
 }
 
@@ -498,9 +499,9 @@ hr.star-light:after, hr.star-primary:after {
 
 .featurette {margin: 40px 0;}
 .featurette-image {max-width: 50%;}
-.featurette-image.pull-left {margin-right: 10px;}
-.featurette-image.pull-right {margin-left: 10px;}
-.featurette-heading {font-size: 30px;}
+.featurette-image.pull-left {margin-right: 20px;}
+.featurette-image.pull-right {margin-left: 20px;}
+.featurette-heading {font-size: 1.8em;}
 
 }
 
@@ -508,7 +509,7 @@ hr.star-light:after, hr.star-primary:after {
 
 .container {margin: 0 15px;}
 .featurette {margin: 40px 0;}
-.featurette-heading {font-size: 25px;}
+.featurette-heading {font-size: 1.5em;}
 
 }
 
@@ -523,7 +524,9 @@ hr.star-light:after, hr.star-primary:after {
 
 .featurette {margin: 10px 0;}
 .featurette-image {max-width: 100%;}
-.featurette-image.pull-left {margin-right: 0; margin-bottom: 10px;}
-.featurette-image.pull-right {margin-left: 0; margin-bottom: 10px;}
+.featurette-image.pull-left {margin-right: 0; margin-bottom: 25px;}
+.featurette-image.pull-right {margin-left: 0; margin-bottom: 25px;}
+.featurette-divider { padding: 25px 0 0 0;}
 
+.last-member { margin-top: 25px;}
 }
