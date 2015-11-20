@@ -1,0 +1,328 @@
+- # coding: utf-8
+%html{:lang => "ja"}
+  %head
+    %meta{:charset => "utf-8"}
+      %title ダブルメガネ株式会社
+      %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+      %meta{:content => "東京都武蔵野市で、スマホアプリやＷＥＢシステムを開発しています。", :name => "description"}/
+      %meta{:content => "http://bootstraptaste.com", :name => "author"}/
+      %link{:href => "assets/img/favicon.ico", :rel => "shortcut icon"}/
+      / css
+      %link{:href => "assets/css/bootstrap.min.css", :rel => "stylesheet"}/
+      %link{:href => "assets/css/fancybox/jquery.fancybox.css", :rel => "stylesheet"}
+      %link{:href => "assets/css/jcarousel.css", :rel => "stylesheet"}/
+      %link{:href => "assets/css/flexslider.css", :rel => "stylesheet"}/
+      %link{:href => "assets/css/style.css", :rel => "stylesheet"}/
+      / Theme skin
+      %link{:href => "assets/skins/default.css", :rel => "stylesheet"}/
+      / Theme Custom
+      %link{:href => "assets/css/custom.css", :rel => "stylesheet"}/
+      / HTML5 shim, for IE6-8 support of HTML5 elements
+      /[if lt IE 9]
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  %body
+    #wrapper
+      %header
+        .navbar.navbar-default.navbar-static-top
+          .container
+            .navbar-header
+              %button.navbar-toggle{"data-target" => ".navbar-collapse", "data-toggle" => "collapse", :type => "button"}
+                %span.icon-bar
+                %span.icon-bar
+                %span.icon-bar
+              %a.navbar-brand{:href => "/"}
+                %span> D
+                OUBLE MEGANE
+            .navbar-collapse.collapse
+              %ul.nav.navbar-nav
+                %li
+                  %a{:href => "about/"} 会社情報
+                %li
+                  %a{:href => "works/"} 開発実績
+                %li
+                  %a{:href => "recruit/"} 採用情報
+                %li
+                  %a{:href => "contact/"} お問い合わせ
+              -#
+                %li.dropdown
+                  %a.dropdown-toggle{"data-close-others" => "false", "data-delay" => "0", "data-hover" => "dropdown", "data-toggle" => "dropdown", :href => "#"}
+                    サービス
+                    %b.icon-angle-down
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "typography.html"} ウェブシステム開発
+                    %li
+                      %a{:href => "components.html"} スマホアプリ開発
+                    %li
+                      %a{:href => "pricingbox.html"} サーバ構築
+      %section#featured
+        / start slider
+        .container
+          .row
+            .col-lg-12
+              / Slider
+              #main-slider.flexslider
+                %ul.slides
+                  %li
+                    %img{:alt => "", :src => "assets/img/slides/1.jpg"}/
+                    .flex-caption
+                      %h3 作って人を幸せに
+                      %p エンジニアに特有の話しにくさがありません。なんでもイージーにご相談ください。
+                    -#
+                      %a.btn.btn-theme{:href => "#"} もっと詳しく
+                -#
+                  %li
+                    %img{:alt => "", :src => "assets/img/slides/2.jpg"}/
+                    .flex-caption
+                      %h3 Fully Responsive
+                      %p Sodales neque vitae justo sollicitudin aliquet sit amet diam curabitur sed fermentum.
+                      %a.btn.btn-theme{:href => "#"} もっと詳しく
+                  %li
+                    %img{:alt => "", :src => "assets/img/slides/3.jpg"}/
+                    .flex-caption
+                      %h3 Clean & Fast
+                      %p Lorem ipsum dolor sit amet, consectetur adipiscing elit donec mer lacinia.
+                      %a.btn.btn-theme{:href => "#"} もっと詳しく
+              / end slider
+      %section.callaction
+        .container
+          .row
+            .col-lg-12
+              .big-cta
+                .cta-text
+                  %h2
+                    私たちは
+                    %span 「初めてのお客様」
+                    に特化して開発しています。
+      %section#content
+        .container
+          .row
+            .col-lg-3.col-sm-6
+              .box
+                .box-gray.aligncenter
+                  %h4 スマホアプリ開発
+                  .icon
+                    %i.fa.fa-apple.fa-3x
+                    &nbsp;&nbsp;
+                    %i.fa.fa-android.fa-3x
+                  %p.fade-item
+                    企画・開発からマネタイズまで、ワンストップサービスをご提供いたします。
+              -#
+                .box-bottom
+                  %a{:href => "#"} もっと詳しく
+            .col-lg-3.col-sm-6
+              .box
+                .box-gray.aligncenter
+                  %h4 WEBシステム開発
+                  .icon
+                    %i.fa.fa-diamond.fa-3x
+                  %p.fade-item
+                    オープンソースを活用して、短納期かつ保守性や柔軟性の高いシステムを開発します。
+              -#
+                .box-bottom
+                  %a{:href => "service/rails.html"} もっと詳しく
+            .col-lg-3.col-sm-6
+              .box
+                .box-gray.aligncenter
+                  %h4 サーバ運用・保守
+                  .icon
+                    %i.fa.fa-cloud.fa-3x
+                  %p.fade-item
+                    Amazon Web Serviceなど、各種サーバ構築や運用、保守を代行いたします。
+              -#
+                .box-bottom
+                  %a{:href => "#"} もっと詳しく
+            .col-lg-3.col-sm-6
+              .box
+                .box-gray.aligncenter
+                  %h4 話し相手
+                  .icon
+                    %i.fa.fa-commenting-o.fa-3x
+                  %p.fade-item
+                    プログラミングとは中々寂しい仕事でもあります。なにか話しかけてください。
+              -#
+                .box-bottom
+                  %a{:href => "#"} もっと詳しく
+          / divider
+          .row
+            .col-lg-12
+              .solidline
+          / end divider
+          / Portfolio Projects
+          .row
+            .col-lg-12
+              %h4.heading 最近の開発実績
+              .row
+                %section#projects
+                  %ul#thumbs.portfolio
+                    %li.item-thumbs.col-lg-4.col-md-6.photography{"data-id" => "id-0", "data-type" => "app"}
+                      %a.hover-wrap.fancybox{"data-fancybox-group" => "gallery", :href => "assets/img/works/spstation.jpg", :title => "スロパチステーション"}
+                        %span.overlay-img
+                        %span.overlay-img-thumb.font-icon-plus
+                      %img{:alt => "ユーザー自身の情報ニーズに沿ってカスタマイズできるニュースアプリです。iOSおよびAndroid版を開発致しました。", :src => "assets/img/works/spstation_thumb.jpg"}
+                    %li.col-lg-4.col-md-6.design{"data-id" => "id-1", "data-type" => "web"}
+                      .item-thumbs
+                        %a.hover-wrap.fancybox{"data-fancybox-group" => "gallery", :href => "assets/img/works/renotta.jpg", :title => "顧客向け情報配信システム"}
+                          %span.overlay-img
+                          %span.overlay-img-thumb.font-icon-plus
+                        %img{:alt => "賃貸物件に関する情報を登録者向けに配信するＷＥＢシステムを、Ruby on Railsで構築しました。PDFやExcelはもちろん、動画や３Ｄデータなど様々なメディアを配信することが可能となっています。", :src => "assets/img/works/renotta.jpg"}
+                    %li.item-thumbs.col-lg-4.col-md-6.photography{"data-id" => "id-2", "data-type" => "app"}
+                      %a.hover-wrap.fancybox{"data-fancybox-group" => "gallery", :href => "assets/img/works/sumagebu.jpg", :title => "スマホゲーム特化型ニュースアプリ"}
+                        %span.overlay-img
+                        %span.overlay-img-thumb.font-icon-plus
+                      %img{:alt => "スマホゲームの攻略情報等に特化したニュースアプリです。対象ユーザーである若年層が使いやすいよう、タブ型デザインはキャッチーなデザインとしました。", :src => "assets/img/works/sumagebu_thumb.jpg"}
+                    %li.item-thumbs.col-lg-4.col-md-6.photography{"data-id" => "id-2", "data-type" => "web"}
+                      %a.hover-wrap.fancybox{"data-fancybox-group" => "gallery", :href => "assets/img/works/seminar.jpg", :title => "同窓生交流サイト"}
+                        %span.overlay-img
+                        %span.overlay-img-thumb.font-icon-plus
+                      %img{:alt => "大学の同窓生向け交流サイトです。大学に関する新着記事の投稿や、ユーザー間でのフレンド申請やメッセージ送信なども可能になっています。", :src => "assets/img/works/seminar.jpg"}
+                    %li.item-thumbs.col-lg-4.col-md-6.photography{"data-id" => "id-3", "data-type" => "other"}
+                      %a.hover-wrap.fancybox{"data-fancybox-group" => "gallery", :href => "assets/img/works/camp.jpg", :title => "初級者向けプログラミング講師（Ruby on Rails ）"}
+                        %span.overlay-img
+                        %span.overlay-img-thumb.font-icon-plus
+                      %img{:alt => "1日10時間×8日間にわたる長期間のプログラミングコースを担当。カリキュラム立案から教材制作、およびその講義までをカバー。Ruby on Railsは初心者にとって難易度が高いフレームワークですが、受講生の完遂率はほぼ100%に及びました。", :src => "assets/img/works/camp.jpg"}
+                    %li.col-lg-4.col-md-6.design{"data-id" => "id-4", "data-type" => "web"}
+                      .item-thumbs
+                        %a.hover-wrap.fancybox{"data-fancybox-group" => "gallery", :href => "assets/img/works/lifesnap.jpg", :title => "出張撮影予約管理システム"}
+                          %span.overlay-img
+                          %span.overlay-img-thumb.font-icon-plus
+                        %img{:alt => "お客様からの出張依頼を管理するＷＥＢシステムを、Ruby on Railsで構築しました。カレンダーで予約一覧を確認することもできます。", :src => "assets/img/works/lifesnap.jpg"}
+              .row
+                .col-lg-12.text-center
+                  %a.btn.btn-default.btn-lg{ href: 'works/'}
+                    もっと見る
+          / divider
+          .row
+            .col-lg-12
+              .solidline
+          / end divider
+          / Portfolio Projects
+          .row
+            .col-lg-12
+              %h4.heading 開発チーム
+          .row
+            .col-lg-4.col-sm-6
+              .card.hovercard
+                %img.cardheader{alt: "hoge", src: "assets/img/profile/nashiro.jpg"}
+                .avatar
+                  %img{alt: "hoge", src: "assets/img/profile/nashiro.jpg"}
+                .info
+                  .title
+                    %h4 名城 大佑
+                  .desc
+                    %p
+                      ダブルメガネの楽観サイド担当。とりあえず「できます」とは言うものの、その回収に頭をひねる毎日。
+                    %p
+                      iOS / Android / Ruby on Rails
+            .col-lg-4.col-sm-6
+              .card.hovercard
+                %img.cardheader{alt: "hoge", src: "assets/img/profile/ishisaki.jpg"}
+                .avatar
+                  %img{alt: "hoge", src: "assets/img/profile/ishisaki.jpg"}
+                .info
+                  .title
+                    %h4 石崎 修也
+                  .desc
+                    %p
+                      ダブルメガネの悲観サイド担当。基本的に物事はうまくいかないと思うので、慎重にやっていくことがモットーです。
+                    %p
+                      AWS / iOS / Android / Ruby on Rails
+            .col-lg-4.col-sm-6
+              .card.hovercard
+                %img.cardheader{alt: "hoge", src: "assets/img/profile/tanaka.jpg"}
+                .avatar
+                  %img{alt: "hoge", src: "assets/img/profile/tanaka.jpg"}
+                .info
+                  .title
+                    %h4 田中 克明
+                  .desc
+                    %p
+                      ３人目のメガネだが、実は視力2.0でダテメガネ。当社のアイデンティティの根幹を揺らす存在となっている。
+                    %p
+                      iOS
+      %section.call-inquiry
+        .container
+          .row
+            .col-lg-12
+              .big-cta
+                .cta-text
+                  %h3
+                    お問い合わせはこちら
+                  %p
+                    アプリやWEBシステムの開発についてのご質問はフォームからお問合せ下さい。
+                  %a.btn.btn-default.btn-lg{ href: 'contact/'}
+                    メガネ達にお問い合わせしてみる
+      %footer
+        .container
+          .row
+            .col-lg-12.text-center
+              .widget
+                %h3.widgetheading 会社情報
+                %address
+                  %strong ダブルメガネ株式会社
+                  %br
+                    〒180-0023
+                    %br
+                      東京都武蔵野市境南町３丁目６−１０
+          -#
+            .col-lg-3
+              .widget
+                %h5.widgetheading コンテンツ
+                %ul.link-list
+                  %li
+                    %a{:href => "#"} 会社情報
+                  %li
+                    %a{:href => "#"} サービス
+                  %li
+                    %a{:href => "works/"} 開発実績
+                  %li
+                    %a{:href => "#"} 採用情報
+                  %li
+                    %a{:href => "contact/"} お問い合わせ
+            .col-lg-3
+              .widget
+                %h5.widgetheading サービス
+                %ul.link-list
+                  %li
+                    %a{:href => "#"} スマホアプリ開発
+                  %li
+                    %a{:href => "#"} ウェブシステム開発
+            .col-lg-3
+              .widget
+                %h5.widgetheading ご相談・お問い合わせはこちら
+                .flickr_badge
+                  %script{:src => "http://www.flickr.com/badge_code_v2.gne?count=8&amp;display=random&amp;size=s&amp;layout=x&amp;source=user&amp;user=34178660@N03", :type => "text/javascript"}
+                .clear
+        #sub-footer
+          .container
+            .row
+              .col-lg-6
+                .copyright
+                  %p
+                    %span &copy; Double Megane 2014 - 2015 All right reserved.
+            -#
+              .col-lg-6
+                %ul.social-network
+                  %li
+                    %a{"data-placement" => "top", :href => "#", :title => "Facebook"}
+                      %i.fa.fa-facebook
+                  %li
+                    %a{"data-placement" => "top", :href => "#", :title => "Twitter"}
+                      %i.fa.fa-twitter
+    %a.scrollup{:href => "#"}
+      %i.fa.fa-angle-up.active
+    /
+      javascript
+      \==================================================
+    / Placed at the end of the document so the pages load faster
+    %script{:src => "assets/js/jquery.js"}
+    %script{:src => "assets/js/jquery.easing.1.3.js"}
+    %script{:src => "assets/js/bootstrap.min.js"}
+    %script{:src => "assets/js/jquery.fancybox.pack.js"}
+    %script{:src => "assets/js/jquery.fancybox-media.js"}
+    %script{:src => "assets/js/google-code-prettify/prettify.js"}
+    %script{:src => "assets/js/portfolio/jquery.quicksand.js"}
+    %script{:src => "assets/js/portfolio/setting.js"}
+    %script{:src => "assets/js/jquery.flexslider.js"}
+    %script{:src => "assets/js/animate.js"}
+    %script{:src => "assets/js/custom.js"}

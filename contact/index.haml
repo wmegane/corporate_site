@@ -1,0 +1,160 @@
+- # coding: utf-8
+%html{:lang => "ja"}
+  %head
+    %meta{:charset => "utf-8"}
+      %title お問い合わせ - ダブルメガネ株式会社
+      %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+      %meta{:content => "", :name => "description"}/
+      %meta{:content => "http://bootstraptaste.com", :name => "author"}/
+      %link{:href => "assets/img/favicon.ico", :rel => "shortcut icon"}/
+      %link{:href => "../assets/css/bootstrap.min.css", :rel => "stylesheet"}/
+      %link{:href => "../assets/css/fancybox/jquery.fancybox.css", :rel => "stylesheet"}
+      %link{:href => "../assets/css/jcarousel.css", :rel => "stylesheet"}/
+      %link{:href => "../assets/css/flexslider.css", :rel => "stylesheet"}/
+      %link{:href => "../assets/css/style.css", :rel => "stylesheet"}/
+      %link{:href => "../assets/skins/default.css", :rel => "stylesheet"}/
+      / Theme Custom
+      %link{:href => "/assets/css/custom.css", :rel => "stylesheet"}/
+      / HTML5 shim, for IE6-8 support of HTML5 elements
+      /[if lt IE 9]
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  %body
+    #wrapper
+      %header
+        .navbar.navbar-default.navbar-static-top
+          .container
+            .navbar-header
+              %button.navbar-toggle{"data-target" => ".navbar-collapse", "data-toggle" => "collapse", :type => "button"}
+                %span.icon-bar
+                %span.icon-bar
+                %span.icon-bar
+              %a.navbar-brand{:href => "/"}
+                %span> D
+                ouble megane
+            .navbar-collapse.collapse
+              %ul.nav.navbar-nav
+                %li
+                  %a{:href => "/about/"} 会社情報
+                %li
+                  %a{:href => "/works/"} 開発実績
+                %li
+                  %a{:href => "/recruit/"} 採用情報
+                %li.active
+                  %a{:href => "/contact/"} お問い合わせ
+              -#
+                %li
+                  %a.dropdown-toggle{"data-close-others" => "false", "data-delay" => "0", "data-hover" => "dropdown", "data-toggle" => "dropdown", :href => "#"}
+                    サービス
+                    %b.icon-angle-down
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "typography.html"} スマートフォンアプリ開発
+                    %li
+                      %a{:href => "components.html"} WEBシステム
+                    %li
+                      %a{:href => "pricingbox.html"} ほげ
+      %section#inner-headline
+        .container
+          .row
+            .col-lg-12
+              %ul.breadcrumb
+                %li
+                  %a{:href => "/"}
+                    %i.fa.fa-home
+                  %i.icon-angle-right
+                %li.active お問い合わせ
+      %section#content
+        .container
+          .row
+            .col-lg-10.col-lg-offset-1
+              %form#contactform{:action => "sformmail.php", :method => "post", :name => "form", :role => "form"}
+                .row
+                  .form-group.col-xs-12.field
+                    %label{:for => "name"} お名前
+                    %input.form-control{:name => "name;s", :placeholder => "お名前", :type => "text"}
+                .row
+                  .form-group.col-xs-12.field
+                    %label{:for => "email"} メールアドレス
+                    %input.form-control{:name => "email;s", :placeholder => "メールアドレス", :type => "text"}
+                .row
+                  .form-group.col-xs-12.field
+                    %label{:for => "message"} お問合せ内容
+                    %textarea.form-control{:name => "message;s", :placeholder => "お問合せ内容", :rows => "5"}
+                %br
+                  .row
+                    .form-group.col-xs-12
+                      %button.btn.btn-lg.btn-success{:type => "submit"} 確認
+      %footer
+        .container
+          .row
+            .col-lg-12.text-center
+              .widget
+                %h3.widgetheading 会社情報
+                %address
+                  %strong ダブルメガネ株式会社
+                  %br
+                    〒180-0023
+                    %br
+                      東京都武蔵野市境南町３丁目６−１０
+          -#
+            .col-lg-3
+              .widget
+                %h5.widgetheading コンテンツ
+                %ul.link-list
+                  %li
+                    %a{:href => "#"} 会社情報
+                  %li
+                    %a{:href => "#"} サービス
+                  %li
+                    %a{:href => "works/"} 開発実績
+                  %li
+                    %a{:href => "#"} 採用情報
+                  %li
+                    %a{:href => "contact/"} お問い合わせ
+            .col-lg-3
+              .widget
+                %h5.widgetheading サービス
+                %ul.link-list
+                  %li
+                    %a{:href => "#"} スマホアプリ開発
+                  %li
+                    %a{:href => "#"} ウェブシステム開発
+            .col-lg-3
+              .widget
+                %h5.widgetheading ご相談・お問い合わせはこちら
+                .flickr_badge
+                  %script{:src => "http://www.flickr.com/badge_code_v2.gne?count=8&amp;display=random&amp;size=s&amp;layout=x&amp;source=user&amp;user=34178660@N03", :type => "text/javascript"}
+                .clear
+        #sub-footer
+          .container
+            .row
+              .col-lg-6
+                .copyright
+                  %p
+                    %span &copy; Double Megane 2014 - 2015 All right reserved.
+            -#
+              .col-lg-6
+                %ul.social-network
+                  %li
+                    %a{"data-placement" => "top", :href => "#", :title => "Facebook"}
+                      %i.fa.fa-facebook
+                  %li
+                    %a{"data-placement" => "top", :href => "#", :title => "Twitter"}
+                      %i.fa.fa-twitter
+    %a.scrollup{:href => "../#"}
+      %i.fa.fa-angle-up.active
+    /
+      javascript
+      \==================================================
+    / Placed at the end of the document so the pages load faster
+    %script{:src => "../assets/js/jquery.js"}
+    %script{:src => "../assets/js/jquery.easing.1.3.js"}
+    %script{:src => "../assets/js/bootstrap.min.js"}
+    %script{:src => "../assets/js/jquery.fancybox.pack.js"}
+    %script{:src => "../assets/js/jquery.fancybox-media.js"}
+    %script{:src => "../assets/js/google-code-prettify/prettify.js"}
+    %script{:src => "../assets/js/portfolio/jquery.quicksand.js"}
+    %script{:src => "../assets/js/portfolio/setting.js"}
+    %script{:src => "../assets/js/jquery.flexslider.js"}
+    %script{:src => "../assets/js/animate.js"}
+    %script{:src => "../assets/js/custom.js"}
