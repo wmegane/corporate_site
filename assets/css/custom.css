@@ -361,9 +361,7 @@ footer {
     width:100%;
     background-size:100% cover;
     height: 145px !important;
-    filter:blur(15px);
-    -webkit-filter:blur(15px);
-    -mox-filter:blur(15px);
+    filter: blur(15px);
 }
 .card.hovercard .avatar {
     position: relative;

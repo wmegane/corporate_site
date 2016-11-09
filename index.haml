@@ -67,7 +67,7 @@
                     %img{:alt => "", :src => "assets/img/slides/1.jpg"}/
                     .flex-caption
                       %h3 作って人を幸せに
-                      %p エンジニアに特有の話しにくさがありません。なんでもイージーにご相談ください。
+                      %p エンジニアに特有の話しにくさがありません。なんでも気軽にご相談ください。
                     -#
                       %a.btn.btn-theme{:href => "#"} もっと詳しく
                 -#
@@ -92,8 +92,8 @@
                 .cta-text
                   %h2
                     私たちは
-                    %span 「初めてのお客様」
-                    に特化して開発しています。
+                    %span 「発注が初めてのお客様」
+                    を中心に開発しています。
       %section#content
         .container
           .row
@@ -135,11 +135,11 @@
             .col-lg-3.col-sm-6
               .box
                 .box-gray.aligncenter
-                  %h4 話し相手
+                  %h4 ご相談相手
                   .icon
                     %i.fa.fa-commenting-o.fa-3x
                   %p.fade-item
-                    プログラミングとは中々寂しい仕事でもあります。なにか話しかけてください。
+                    プログラミングとは孤独な仕事です。気軽に打ち合わせをお持ちかけください。
               -#
                 .box-bottom
                   %a{:href => "#"} もっと詳しく
@@ -325,4 +325,9 @@
     %script{:src => "assets/js/portfolio/setting.js"}
     %script{:src => "assets/js/jquery.flexslider.js"}
     %script{:src => "assets/js/animate.js"}
+    :javascript
+      var polyfilter_scriptpath = '/lib/css-filters-polyfill/';
+    %script{:src => "lib/css-filters-polyfill/contentloaded.js"}
+    %script{:src => "lib/css-filters-polyfill/cssParser.js"}
+    %script{:src => "lib/css-filters-polyfill/css-filters-polyfill.js"}
     %script{:src => "assets/js/custom.js"}
