@@ -1,0 +1,32 @@
+<header>
+  <div class='navbar navbar-default navbar-static-top'>
+    <div class='container'>
+      <div class='navbar-header'>
+        <button class='navbar-toggle' data-target='.navbar-collapse' data-toggle='collapse' type='button'>
+          <span class='icon-bar'></span>
+          <span class='icon-bar'></span>
+          <span class='icon-bar'></span>
+        </button>
+        <% link_to '/', class: 'navbar-brand' do %>
+          <span>D</span>OUBLE MEGANE
+        <% end %>
+      </div>
+      <div class='navbar-collapse collapse'>
+        <ul class='nav navbar-nav'>
+          <li>
+            <%= link_to '会社情報', '../about/index.html' %>
+          </li>
+          <li>
+            <%= link_to '開発実績', '../works/index.html' %>
+          </li>
+          <li>
+            <%= link_to '採用情報', '../recruit/index.html' %>
+          </li>
+          <li>
+            <%= link_to 'お問い合わせ', '../contact/index.html' %>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
