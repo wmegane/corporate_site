@@ -18,29 +18,41 @@ EOM;
 }
 //ここまで
 ?>
-<!DOCTYPE html>
-<html lang="jp">
-
+<!doctype html>
+<html>
   <head>
     <meta charset='utf-8'>
       <title>お問い合わせ - ダブルメガネ株式会社</title>
       <meta content='width=device-width, initial-scale=1.0' name='viewport'>
       <meta content='' name='description'>
       <meta content='http://bootstraptaste.com' name='author'>
-      <link href='assets/img/favicon.ico' rel='shortcut icon'>
-      <link href='../assets/css/bootstrap.min.css' rel='stylesheet'>
-      <link href='../assets/css/fancybox/jquery.fancybox.css' rel='stylesheet'>
-      <link href='../assets/css/jcarousel.css' rel='stylesheet'>
-      <link href='../assets/css/flexslider.css' rel='stylesheet'>
-      <link href='../assets/css/style.css' rel='stylesheet'>
-      <link href='../assets/skins/default.css' rel='stylesheet'>
-      <!-- Theme Custom -->
-      <link href='/assets/css/custom.css' rel='stylesheet'>
+      <link href='/images/favicon.ico' rel='shortcut icon'>
       <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
       <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
       <![endif]-->
     </meta>
+
+    <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <link href="/assets/stylesheets/all.css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/b656bac87e.js"></script>
+    <script src="/assets/javascripts/jquery.js"></script>
+    <script src="/assets/javascripts/jquery.easing.1.3.js"></script>
+    <script src="/assets/javascripts/bootstrap.min.js"></script>
+    <script src="/assets/javascripts/jquery.fancybox.pack.js"></script>
+    <script src="/assets/javascripts/jquery.fancybox-media.js"></script>
+    <script src="/assets/javascripts/prettify.js"></script>
+    <script src="/assets/javascripts/jquery.quicksand.js"></script>
+    <script src="/assets/javascripts/setting.js"></script>
+    <script src="/assets/javascripts/jquery.flexslider.js"></script>
+    <script src="/assets/javascripts/animate.js"></script>
+    <script>
+      var polyfilter_scriptpath = '/';
+    </script>
+    <script src="/assets/javascripts/contentloaded.js"></script>
+    <script src="/assets/javascripts/cssParser.js"></script>
+    <script src="/assets/javascripts/css-filters-polyfill.js"></script>
+    <script src="/assets/javascripts/custom.js"></script>
   </head>
 
   <body>
@@ -175,21 +187,5 @@ EOM;
     <a class='scrollup' href='../#'>
       <i class='fa fa-angle-up active'></i>
     </a>
-    <!--
-      javascript
-      ==================================================
-    -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src='../assets/js/jquery.js'></script>
-    <script src='../assets/js/jquery.easing.1.3.js'></script>
-    <script src='../assets/js/bootstrap.min.js'></script>
-    <script src='../assets/js/jquery.fancybox.pack.js'></script>
-    <script src='../assets/js/jquery.fancybox-media.js'></script>
-    <script src='../assets/js/google-code-prettify/prettify.js'></script>
-    <script src='../assets/js/portfolio/jquery.quicksand.js'></script>
-    <script src='../assets/js/portfolio/setting.js'></script>
-    <script src='../assets/js/jquery.flexslider.js'></script>
-    <script src='../assets/js/animate.js'></script>
-    <script src='../assets/js/custom.js'></script>
   </body>
 </html>
