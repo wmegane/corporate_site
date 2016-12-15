@@ -1,0 +1,21 @@
+campany_informations:
+  - header: 会社名
+    data: ダブルメガネ株式会社（英文社名：Double Megane, Inc.）
+  - header: 設立
+    data: 平成26年6月
+  - header: 所在地
+    data: '〒180-0023
+           <br>東京都武蔵野市境南町3-6-10-302
+           <br>'
+  - header: 資本金
+    data: 100万円
+  - header: 役員
+    data: 代表取締役社長　名城大佑<br>代表取締役　石崎修也</br>
+  - header: 事業内容
+    data: '<ul>
+            <li>スマートフォンアプリサービス開発・運営</li>
+            <li>インターネットを利用した教育システム及び教育教材の企画、製作、運営、 販売</li>
+            <li>各種インターネットコンテンツの企画、開発、販売</li>
+          </ul>'
+  - header: 主要取引先銀行
+    data: 株式会社三井住友銀行

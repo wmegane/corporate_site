@@ -1,0 +1,38 @@
+development_records:
+  - image: spstation.jpg
+    title: スロパチステーション
+    thumbnail_image: spstation_thumb.jpg
+    desctiption: ユーザー自身の情報ニーズに沿ってカスタマイズできるニュースアプリです。iOSおよびAndroid版を開発致しました
+  - image: renotta.jpg
+    title: 顧客向け情報配信システム
+    thumbnail_image: renotta.jpg
+    desctiption: 賃貸物件に関する情報を登録者向けに配信するＷＥＢシステムを、Ruby on Railsで構築しました。PDFやExcelはもちろん、動画や３Ｄデータなど様々なメディアを配信することが可能となっています。
+  - image: sumagebu.jpg
+    title: スマホゲーム特化型ニュースアプリ
+    thumbnail_image: sumagebu_thumb.jpg
+    desctiption: スマホゲームの攻略情報等に特化したニュースアプリです。対象ユーザーである若年層が使いやすいよう、タブ型デザインはキャッチーなデザインとしました。
+  - image: seminar.jpg
+    title: 同窓生交流サイト
+    thumbnail_image: seminar.jpg
+    desctiption: 大学の同窓生向け交流サイトです。大学に関する新着記事の投稿や、ユーザー間でのフレンド申請やメッセージ送信なども可能になっています。
+  - image: camp.jpg
+    title: 初級者向けプログラミング講師（Ruby on Rails ）
+    thumbnail_image: camp.jpg
+    desctiption: 1日10時間×8日間にわたる長期間のプログラミングコースを担当。カリキュラム立案から教材制作、およびその講義までをカバー。Ruby on Railsは初心者にとって難易度が高いフレームワークですが、受講生の完遂率はほぼ100%に及びました。
+  - image: lifesnap.jpg
+    title: 出張撮影予約管理システム
+    thumbnail_image: lifesnap.jpg
+    desctiption: お客様からの出張依頼を管理するＷＥＢシステムを、Ruby on Railsで構築しました。カレンダーで予約一覧を確認することもできます。
+members:
+  - image: nashiro.jpg
+    name: 名城 大佑
+    desctiption: ダブルメガネの楽観サイド担当。とりあえず「できます」とは言うものの、その回収に頭をひねる毎日。
+    skill: AWS / iOS / Android / Ruby on Rails
+  - image: ishisaki.jpg
+    name: 石崎 修也
+    desctiption: ダブルメガネの悲観サイド担当。基本的に物事はうまくいかないと思うので、慎重にやっていくことがモットーです。
+    skill: AWS / iOS / Android / Ruby on Rails
+  - image: tanaka.jpg
+    name: 田中 克明
+    desctiption: ３人目のメガネだが、実は視力2.0でダテメガネ。当社のアイデンティティの根幹を揺らす存在となっている。
+    skill: iOS

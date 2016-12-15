@@ -1,20 +1,43 @@
 <!doctype html>
 <html>
   <head>
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta charset="utf-8">
-    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
-
-    <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "Middleman" %></title>
+    <meta charset='utf-8'>
+      <title><%= full_title(current_page.data.title) %></title>
+      <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+      <meta content='' name='description'>
+      <meta content='http://bootstraptaste.com' name='author'>
+      <link href='/images/favicon.ico' rel='shortcut icon'>
+      <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+      <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+    </meta>
 
     <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-
-    <%= stylesheet_link_tag :site %>
-    <%= javascript_include_tag :all %>
+    <%= stylesheet_link_tag :all %>
+    <script src="https://use.fontawesome.com/b656bac87e.js"></script>
+    <%= javascript_include_tag 'jquery' %>
+    <%= javascript_include_tag 'jquery.easing.1.3' %>
+    <%= javascript_include_tag 'bootstrap.min' %>
+    <%= javascript_include_tag 'jquery.fancybox.pack' %>
+    <%= javascript_include_tag 'jquery.fancybox-media' %>
+    <%= javascript_include_tag 'prettify' %>
+    <%= javascript_include_tag 'jquery.quicksand' %>
+    <%= javascript_include_tag 'setting' %>
+    <%= javascript_include_tag 'jquery.flexslider' %>
+    <%= javascript_include_tag 'animate' %>
+    <script>
+      var polyfilter_scriptpath = '/';
+    </script>
+    <%= javascript_include_tag 'contentloaded' %>
+    <%= javascript_include_tag 'cssParser' %>
+    <%= javascript_include_tag 'css-filters-polyfill' %>
+    <%= javascript_include_tag 'custom' %>
   </head>
 
-  <body class="<%= page_classes %>">
-    <%= yield %>
+  <body>
+    <div id="wrapper">
+      <%= yield %>
+    </div>
   </body>
 </html>

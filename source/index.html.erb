@@ -1,13 +1,174 @@
----
-title: Welcome to Middleman
----
-
-<div class="welcome">
-  <div class="logo">
-    <%= image_tag "middleman-logo.svg" %>
+<%= partial 'layouts/header' %>
+<section id='featured'>
+  <!-- start slider -->
+  <div class='container'>
+    <div class='row'>
+      <div class='col-lg-12'>
+        <!-- Slider -->
+        <div class='flexslider' id='main-slider'>
+          <ul class='slides'>
+            <li>
+              <%= image_tag '1.jpg' %>
+              <div class='flex-caption'>
+                <h3>納得してから、次へ</h3>
+                <p>エンジニアに特有の話しにくさがありません。なんでも気軽にご相談ください。</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- end slider -->
+      </div>
+    </div>
   </div>
-  <h1>Middleman is Running</h1>
-  <p class="doc">
-    <%= link_to "Read Documentation Online", "https://middlemanapp.com", target: "_blank" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+</section>
+<section class='callaction'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-lg-12'>
+        <div class='big-cta'>
+          <div class='cta-text'>
+            <h2>
+              私たちは
+              <span>「発注が初めてのお客様」</span>
+              を中心に開発しています。
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id='content'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-lg-3 col-sm-6'>
+        <div class='box'>
+          <div class='box-gray aligncenter'>
+            <h4>スマホアプリ開発</h4>
+            <div class='icon'>
+              <i class='fa fa-apple fa-3x'></i>
+              &nbsp;&nbsp;
+              <i class='fa fa-android fa-3x'></i>
+            </div>
+            <p class='fade-item'>
+              企画・開発からマネタイズまで、ワンストップサービスをご提供いたします。
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class='col-lg-3 col-sm-6'>
+        <div class='box'>
+          <div class='box-gray aligncenter'>
+            <h4>WEBシステム開発</h4>
+            <div class='icon'>
+              <i class='fa fa-diamond fa-3x'></i>
+            </div>
+            <p class='fade-item'>
+              オープンソースを活用して、短納期かつ保守性や柔軟性の高いシステムを開発します。
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class='col-lg-3 col-sm-6'>
+        <div class='box'>
+          <div class='box-gray aligncenter'>
+            <h4>サーバ運用・保守</h4>
+            <div class='icon'>
+              <i class='fa fa-cloud fa-3x'></i>
+            </div>
+            <p class='fade-item'>
+              Amazon Web Serviceなど、各種サーバ構築や運用、保守を代行いたします。
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class='col-lg-3 col-sm-6'>
+        <div class='box'>
+          <div class='box-gray aligncenter'>
+            <h4>ご相談相手</h4>
+            <div class='icon'>
+              <i class='fa fa-commenting-o fa-3x'></i>
+            </div>
+            <p class='fade-item'>
+              プログラミングとは孤独な仕事です。気軽に打ち合わせをお持ちかけください。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- divider -->
+    <div class='row'>
+      <div class='col-lg-12'>
+        <div class='solidline'></div>
+      </div>
+    </div>
+    <!-- end divider -->
+    <!-- Portfolio Projects -->
+    <div class='row'>
+      <div class='col-lg-12'>
+        <h4 class='heading'>最近の開発実績</h4>
+        <div class='row'>
+          <section id='projects'>
+            <ul class='portfolio' id='thumbs'>
+              <% data.index.development_records.each do |record| %>
+                <li class='item-thumbs col-lg-4 col-md-6 photography' data-id='id-0' data-type='app'>
+                <% link_to "assets/images/#{record.image}", class: 'hover-wrap fancybox', 'data-fancybox-group' => 'gallery', title: record.title do %>
+                  <span class='overlay-img'></span>
+                  <span class='overlay-img-thumb font-icon-plus'></span>
+                <% end %>
+                <%= image_tag record.thumbnail_image, alt: record.desctiption %>
+                </li>
+              <% end %>
+            </ul>
+          </section>
+        </div>
+        <div class='row'>
+          <div class='col-lg-12 text-center'>
+            <%= link_to 'もっと見る', '/works/index.html', class: 'btn btn-default btn-lg' %>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- divider -->
+    <div class='row'>
+      <div class='col-lg-12'>
+        <div class='solidline'></div>
+      </div>
+    </div>
+    <!-- end divider -->
+    <!-- Portfolio Projects -->
+    <div class='row'>
+      <div class='col-lg-12'>
+        <h4 class='heading'>開発チーム</h4>
+      </div>
+    </div>
+    <div class='row'>
+      <% data.index.members.each do |member| %>
+        <div class='col-lg-4 col-sm-6'>
+          <div class='card hovercard'>
+            <%= image_tag member.image, class: 'cardheader', alt: 'hoge' %>
+            <div class='avatar'>
+              <%= image_tag member.image %>
+            </div>
+            <div class='info'>
+              <div class='title'>
+                <h4><%= member.name %></h4>
+              </div>
+              <div class='desc'>
+                <p>
+                  <%= member.desctiption %>
+                </p>
+                <p>
+                  <%= member.skill %>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</section>
+<%= partial 'layouts/inquiry' %>
+<%= partial 'layouts/footer' %>
+<%= partial 'layouts/scrollup' %>

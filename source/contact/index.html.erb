@@ -1,0 +1,58 @@
+---
+title: お問い合わせ
+---
+<%= partial 'layouts/header' %>
+<section id='inner-headline'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-lg-12'>
+        <ul class='breadcrumb'>
+          <li>
+            <a href='/'>
+              <i class='fa fa-home'></i>
+            </a>
+            <i class='icon-angle-right'></i>
+          </li>
+          <li class='active'>お問い合わせ</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section id='content'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-lg-10 col-lg-offset-1'>
+        <form action='sformmail.php' id='contactform' method='post' name='form' role='form'>
+          <div class='row'>
+            <div class='form-group col-xs-12 field'>
+              <label for='name'>お名前</label>
+              <input class='form-control' name='name;s' placeholder='お名前' type='text'>
+            </div>
+          </div>
+          <div class='row'>
+            <div class='form-group col-xs-12 field'>
+              <label for='email'>メールアドレス</label>
+              <input class='form-control' name='email;s' placeholder='メールアドレス' type='text'>
+            </div>
+          </div>
+          <div class='row'>
+            <div class='form-group col-xs-12 field'>
+              <label for='message'>お問合せ内容</label>
+              <textarea class='form-control' name='message;s' placeholder='お問合せ内容' rows='5'></textarea>
+            </div>
+          </div>
+          <br>
+            <div class='row'>
+              <div class='form-group col-xs-12'>
+                <button class='btn btn-lg btn-success' type='submit'>確認</button>
+              </div>
+            </div>
+          </br>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<%= partial 'layouts/footer' %>
+<%= partial 'layouts/scrollup' %>

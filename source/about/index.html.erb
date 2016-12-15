@@ -1,0 +1,79 @@
+---
+title: 会社情報
+---
+<%= partial 'layouts/header' %>
+<section id='inner-headline'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-lg-12'>
+        <ul class='breadcrumb'>
+          <li>
+            <% link_to '/' do %>
+              <i class='fa fa-home'></i>
+            <% end %>
+            <i class='icon-angle-right'></i>
+          </li>
+          <li class='active'>会社概要</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section id='content'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-lg-12'>
+        <h2 class='heading'>会社概要</h2>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='col-lg-12'>
+        <table class='table'>
+          <% data.about.campany_informations.each do |info| %>
+            <tr>
+              <th><%= info.header %></th>
+              <td><%= info.data %></td>
+            </tr>
+          <% end %>
+        </table>
+      </div>
+    </div>
+    <!-- divider -->
+    <div class='row'>
+      <div class='col-lg-12'>
+        <div class='solidline'></div>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='col-lg-12'>
+        <h2 class='heading'>アクセス</h2>
+      </div>
+    </div>
+  </div>
+  <div class='map' style='margin-top: 0;'>
+    <iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3240.0026662781074!2d139.5399993!3d35.701552!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018ef9c929fab27%3A0x5faf6b180dcb6739!2z44CSMTgwLTAwMjMg5p2x5Lqs6YO95q2m6JS16YeO5biC5aKD5Y2X55S677yT5LiB55uu77yW4oiS77yR77yQ!5e0!3m2!1sja!2sjp!4v1428403937383' style='pointer-events:none'></iframe>
+  </div>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-sm-6'>
+        <h4>所在地</h4>
+        <p>
+          〒180-0023
+          <br>
+            東京都武蔵野市境南町3-6-10-302
+            <br>
+          </br>
+        </p>
+      </div>
+      <div class='col-sm-6'>
+        <h4>最寄り駅</h4>
+        <p>
+          ＪＲ中央線「武蔵境駅」から徒歩３分
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<%= partial 'layouts/inquiry' %>
+<%= partial 'layouts/footer' %>
+<%= partial 'layouts/scrollup' %>
