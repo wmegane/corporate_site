@@ -6,6 +6,7 @@
       <meta content='width=device-width, initial-scale=1.0' name='viewport'>
       <meta content='' name='description'>
       <meta content='http://bootstraptaste.com' name='author'>
+      <link href='/images/favicon.ico' rel='shortcut icon'>
       <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
       <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -34,7 +35,9 @@
     <%= javascript_include_tag 'custom' %>
   </head>
 
-  <body class="<%= page_classes %>">
-    <%= yield %>
+  <body>
+    <div id="wrapper">
+      <%= yield %>
+    </div>
   </body>
 </html>

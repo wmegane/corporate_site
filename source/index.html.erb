@@ -1,275 +1,174 @@
-<div id='wrapper'>
-  <%= partial 'layouts/header' %>
-  <section id='featured'>
-    <!-- start slider -->
-    <div class='container'>
-      <div class='row'>
-        <div class='col-lg-12'>
-          <!-- Slider -->
-          <div class='flexslider' id='main-slider'>
-            <ul class='slides'>
-              <li>
-                <%= image_tag '1.jpg' %>
-                <div class='flex-caption'>
-                  <h3>納得してから、次へ</h3>
-                  <p>エンジニアに特有の話しにくさがありません。なんでも気軽にご相談ください。</p>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <!-- end slider -->
+<%= partial 'layouts/header' %>
+<section id='featured'>
+  <!-- start slider -->
+  <div class='container'>
+    <div class='row'>
+      <div class='col-lg-12'>
+        <!-- Slider -->
+        <div class='flexslider' id='main-slider'>
+          <ul class='slides'>
+            <li>
+              <%= image_tag '1.jpg' %>
+              <div class='flex-caption'>
+                <h3>納得してから、次へ</h3>
+                <p>エンジニアに特有の話しにくさがありません。なんでも気軽にご相談ください。</p>
+              </div>
+            </li>
+          </ul>
         </div>
+        <!-- end slider -->
       </div>
     </div>
-  </section>
-  <section class='callaction'>
-    <div class='container'>
-      <div class='row'>
-        <div class='col-lg-12'>
-          <div class='big-cta'>
-            <div class='cta-text'>
-              <h2>
-                私たちは
-                <span>「発注が初めてのお客様」</span>
-                を中心に開発しています。
-              </h2>
-            </div>
+  </div>
+</section>
+<section class='callaction'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-lg-12'>
+        <div class='big-cta'>
+          <div class='cta-text'>
+            <h2>
+              私たちは
+              <span>「発注が初めてのお客様」</span>
+              を中心に開発しています。
+            </h2>
           </div>
         </div>
       </div>
     </div>
-  </section>
-  <section id='content'>
-    <div class='container'>
-      <div class='row'>
-        <div class='col-lg-3 col-sm-6'>
-          <div class='box'>
-            <div class='box-gray aligncenter'>
-              <h4>スマホアプリ開発</h4>
-              <div class='icon'>
-                <i class='fa fa-apple fa-3x'></i>
-                &nbsp;&nbsp;
-                <i class='fa fa-android fa-3x'></i>
-              </div>
-              <p class='fade-item'>
-                企画・開発からマネタイズまで、ワンストップサービスをご提供いたします。
-              </p>
+  </div>
+</section>
+<section id='content'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-lg-3 col-sm-6'>
+        <div class='box'>
+          <div class='box-gray aligncenter'>
+            <h4>スマホアプリ開発</h4>
+            <div class='icon'>
+              <i class='fa fa-apple fa-3x'></i>
+              &nbsp;&nbsp;
+              <i class='fa fa-android fa-3x'></i>
             </div>
-          </div>
-        </div>
-        <div class='col-lg-3 col-sm-6'>
-          <div class='box'>
-            <div class='box-gray aligncenter'>
-              <h4>WEBシステム開発</h4>
-              <div class='icon'>
-                <i class='fa fa-diamond fa-3x'></i>
-              </div>
-              <p class='fade-item'>
-                オープンソースを活用して、短納期かつ保守性や柔軟性の高いシステムを開発します。
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class='col-lg-3 col-sm-6'>
-          <div class='box'>
-            <div class='box-gray aligncenter'>
-              <h4>サーバ運用・保守</h4>
-              <div class='icon'>
-                <i class='fa fa-cloud fa-3x'></i>
-              </div>
-              <p class='fade-item'>
-                Amazon Web Serviceなど、各種サーバ構築や運用、保守を代行いたします。
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class='col-lg-3 col-sm-6'>
-          <div class='box'>
-            <div class='box-gray aligncenter'>
-              <h4>ご相談相手</h4>
-              <div class='icon'>
-                <i class='fa fa-commenting-o fa-3x'></i>
-              </div>
-              <p class='fade-item'>
-                プログラミングとは孤独な仕事です。気軽に打ち合わせをお持ちかけください。
-              </p>
-            </div>
+            <p class='fade-item'>
+              企画・開発からマネタイズまで、ワンストップサービスをご提供いたします。
+            </p>
           </div>
         </div>
       </div>
-      <!-- divider -->
-      <div class='row'>
-        <div class='col-lg-12'>
-          <div class='solidline'></div>
+      <div class='col-lg-3 col-sm-6'>
+        <div class='box'>
+          <div class='box-gray aligncenter'>
+            <h4>WEBシステム開発</h4>
+            <div class='icon'>
+              <i class='fa fa-diamond fa-3x'></i>
+            </div>
+            <p class='fade-item'>
+              オープンソースを活用して、短納期かつ保守性や柔軟性の高いシステムを開発します。
+            </p>
+          </div>
         </div>
       </div>
-      <!-- end divider -->
-      <!-- Portfolio Projects -->
-      <div class='row'>
-        <div class='col-lg-12'>
-          <h4 class='heading'>最近の開発実績</h4>
-          <div class='row'>
-            <section id='projects'>
-              <ul class='portfolio' id='thumbs'>
+      <div class='col-lg-3 col-sm-6'>
+        <div class='box'>
+          <div class='box-gray aligncenter'>
+            <h4>サーバ運用・保守</h4>
+            <div class='icon'>
+              <i class='fa fa-cloud fa-3x'></i>
+            </div>
+            <p class='fade-item'>
+              Amazon Web Serviceなど、各種サーバ構築や運用、保守を代行いたします。
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class='col-lg-3 col-sm-6'>
+        <div class='box'>
+          <div class='box-gray aligncenter'>
+            <h4>ご相談相手</h4>
+            <div class='icon'>
+              <i class='fa fa-commenting-o fa-3x'></i>
+            </div>
+            <p class='fade-item'>
+              プログラミングとは孤独な仕事です。気軽に打ち合わせをお持ちかけください。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- divider -->
+    <div class='row'>
+      <div class='col-lg-12'>
+        <div class='solidline'></div>
+      </div>
+    </div>
+    <!-- end divider -->
+    <!-- Portfolio Projects -->
+    <div class='row'>
+      <div class='col-lg-12'>
+        <h4 class='heading'>最近の開発実績</h4>
+        <div class='row'>
+          <section id='projects'>
+            <ul class='portfolio' id='thumbs'>
+              <% data.index.development_records.each do |record| %>
                 <li class='item-thumbs col-lg-4 col-md-6 photography' data-id='id-0' data-type='app'>
-                <% link_to '/images/spstation.jpg', class: 'hover-wrap fancybox', 'data-fancybox-group' => 'gallery', title: 'スロパチステーション' do %>
-                    <span class='overlay-img'></span>
-                    <span class='overlay-img-thumb font-icon-plus'></span>
+                <% link_to "assets/images/#{record.image}", class: 'hover-wrap fancybox', 'data-fancybox-group' => 'gallery', title: record.title do %>
+                  <span class='overlay-img'></span>
+                  <span class='overlay-img-thumb font-icon-plus'></span>
                 <% end %>
-                  <%= image_tag 'spstation_thumb.jpg', alt: 'ユーザー自身の情報ニーズに沿ってカスタマイズできるニュースアプリです。iOSおよびAndroid版を開発致しました。' %>
+                <%= image_tag record.thumbnail_image, alt: record.desctiption %>
                 </li>
-                <li class='col-lg-4 col-md-6 design' data-id='id-1' data-type='web'>
-                  <div class='item-thumbs'>
-                    <% link_to '/images/renotta.jpg', class: 'hover-wrap fancybox', 'data-fancybox-group' => 'gallery', title: '顧客向け情報配信システム' do %>
-                      <span class='overlay-img'></span>
-                      <span class='overlay-img-thumb font-icon-plus'></span>
-                    <% end %>
-                    <%= image_tag 'renotta.jpg', alt: '賃貸物件に関する情報を登録者向けに配信するＷＥＢシステムを、Ruby on Railsで構築しました。PDFやExcelはもちろん、動画や３Ｄデータなど様々なメディアを配信することが可能となっています。' %>
-                  </div>
-                </li>
-                <li class='item-thumbs col-lg-4 col-md-6 photography' data-id='id-2' data-type='app'>
-                  <% link_to '/images/sumagebu.jpg', class: 'hover-wrap fancybox', 'data-fancybox-group' => 'gallery', title: 'スマホゲーム特化型ニュースアプリ' do %>
-                    <span class='overlay-img'></span>
-                    <span class='overlay-img-thumb font-icon-plus'></span>
-                  <% end %>
-                  <%= image_tag 'sumagebu_thumb.jpg', alt: 'スマホゲームの攻略情報等に特化したニュースアプリです。対象ユーザーである若年層が使いやすいよう、タブ型デザインはキャッチーなデザインとしました。' %>
-                </li>
-                <li class='item-thumbs col-lg-4 col-md-6 photography' data-id='id-2' data-type='web'>
-                  <a class='hover-wrap fancybox' data-fancybox-group='gallery' href='/images/seminar.jpg' title='同窓生交流サイト'>
-                    <span class='overlay-img'></span>
-                    <span class='overlay-img-thumb font-icon-plus'></span>
-                  </a>
-                  <%= image_tag 'seminar.jpg', alt: '大学の同窓生向け交流サイトです。大学に関する新着記事の投稿や、ユーザー間でのフレンド申請やメッセージ送信なども可能になっています。' %>
-                </li>
-                <li class='item-thumbs col-lg-4 col-md-6 photography' data-id='id-3' data-type='other'>
-                  <a class='hover-wrap fancybox' data-fancybox-group='gallery' href='/images/camp.jpg' title='初級者向けプログラミング講師（Ruby on Rails ）'>
-                    <span class='overlay-img'></span>
-                    <span class='overlay-img-thumb font-icon-plus'></span>
-                  </a>
-                  <%= image_tag 'camp.jpg', alt: '1日10時間×8日間にわたる長期間のプログラミングコースを担当。カリキュラム立案から教材制作、およびその講義までをカバー。Ruby on Railsは初心者にとって難易度が高いフレームワークですが、受講生の完遂率はほぼ100%に及びました。' %>
-                </li>
-                <li class='col-lg-4 col-md-6 design' data-id='id-4' data-type='web'>
-                  <div class='item-thumbs'>
-                    <a class='hover-wrap fancybox' data-fancybox-group='gallery' href='/images/lifesnap.jpg' title='出張撮影予約管理システム'>
-                      <span class='overlay-img'></span>
-                      <span class='overlay-img-thumb font-icon-plus'></span>
-                    </a>
-                    <%= image_tag 'lifesnap.jpg', alt: 'お客様からの出張依頼を管理するＷＥＢシステムを、Ruby on Railsで構築しました。カレンダーで予約一覧を確認することもできます。' %>
-                  </div>
-                </li>
-              </ul>
-            </section>
-          </div>
-          <div class='row'>
-            <div class='col-lg-12 text-center'>
-              <%= link_to 'もっと見る', '/works/index.html', class: 'btn btn-default btn-lg' %>
-            </div>
-          </div>
+              <% end %>
+            </ul>
+          </section>
         </div>
-      </div>
-      <!-- divider -->
-      <div class='row'>
-        <div class='col-lg-12'>
-          <div class='solidline'></div>
-        </div>
-      </div>
-      <!-- end divider -->
-      <!-- Portfolio Projects -->
-      <div class='row'>
-        <div class='col-lg-12'>
-          <h4 class='heading'>開発チーム</h4>
-        </div>
-      </div>
-      <div class='row'>
-        <div class='col-lg-4 col-sm-6'>
-          <div class='card hovercard'>
-            <%= image_tag 'nashiro.jpg', class: 'cardheader', alt: 'hoge' %>
-            <div class='avatar'>
-              <%= image_tag 'nashiro.jpg' %>
-            </div>
-            <div class='info'>
-              <div class='title'>
-                <h4>名城 大佑</h4>
-              </div>
-              <div class='desc'>
-                <p>
-                  ダブルメガネの楽観サイド担当。とりあえず「できます」とは言うものの、その回収に頭をひねる毎日。
-                </p>
-                <p>
-                  iOS / Android / Ruby on Rails
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class='col-lg-4 col-sm-6'>
-          <div class='card hovercard'>
-            <%= image_tag 'ishisaki.jpg', class: 'cardheader', alt: 'hoge' %>
-            <div class='avatar'>
-              <%= image_tag 'ishisaki.jpg' %>
-            </div>
-            <div class='info'>
-              <div class='title'>
-                <h4>石崎 修也</h4>
-              </div>
-              <div class='desc'>
-                <p>
-                  ダブルメガネの悲観サイド担当。基本的に物事はうまくいかないと思うので、慎重にやっていくことがモットーです。
-                </p>
-                <p>
-                  AWS / iOS / Android / Ruby on Rails
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class='col-lg-4 col-sm-6'>
-          <div class='card hovercard'>
-            <%= image_tag 'tanaka.jpg', class: 'cardheader' %>
-            <div class='avatar'>
-              <%= image_tag 'tanaka.jpg' %>
-            </div>
-            <div class='info'>
-              <div class='title'>
-                <h4>田中 克明</h4>
-              </div>
-              <div class='desc'>
-                <p>
-                  ３人目のメガネだが、実は視力2.0でダテメガネ。当社のアイデンティティの根幹を揺らす存在となっている。
-                </p>
-                <p>
-                  iOS
-                </p>
-              </div>
-            </div>
+        <div class='row'>
+          <div class='col-lg-12 text-center'>
+            <%= link_to 'もっと見る', '/works/index.html', class: 'btn btn-default btn-lg' %>
           </div>
         </div>
       </div>
     </div>
-  </section>
-  <section class='call-inquiry'>
-    <div class='container'>
-      <div class='row'>
-        <div class='col-lg-12'>
-          <div class='big-cta'>
-            <div class='cta-text'>
-              <h3>
-                お問い合わせはこちら
-              </h3>
-              <p>
-                アプリやWEBシステムの開発についてのご質問はフォームからお問合せ下さい。
-              </p>
-              <a class='btn btn-default btn-lg' href='contact/'>
-                メガネ達にお問い合わせしてみる
-              </a>
+    <!-- divider -->
+    <div class='row'>
+      <div class='col-lg-12'>
+        <div class='solidline'></div>
+      </div>
+    </div>
+    <!-- end divider -->
+    <!-- Portfolio Projects -->
+    <div class='row'>
+      <div class='col-lg-12'>
+        <h4 class='heading'>開発チーム</h4>
+      </div>
+    </div>
+    <div class='row'>
+      <% data.index.members.each do |member| %>
+        <div class='col-lg-4 col-sm-6'>
+          <div class='card hovercard'>
+            <%= image_tag member.image, class: 'cardheader', alt: 'hoge' %>
+            <div class='avatar'>
+              <%= image_tag member.image %>
+            </div>
+            <div class='info'>
+              <div class='title'>
+                <h4><%= member.name %></h4>
+              </div>
+              <div class='desc'>
+                <p>
+                  <%= member.desctiption %>
+                </p>
+                <p>
+                  <%= member.skill %>
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      <% end %>
     </div>
-  </section>
-  <%= partial 'layouts/footer' %>
-</div>
-<a class='scrollup' href='#'>
-  <i class='fa fa-angle-up active'></i>
-</a>
+  </div>
+</section>
+<%= partial 'layouts/inquiry' %>
+<%= partial 'layouts/footer' %>
+<%= partial 'layouts/scrollup' %>
