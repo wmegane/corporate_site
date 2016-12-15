@@ -4,10 +4,10 @@
 	フォームメール - sformmmail
 	2008-8-20 Ver. 1.40
 	(c)sapphirus.biz
-	
+
 	詳しい説明は下記のURLを参照して下さい。
 	http://www.sapphirus.biz/php/sformmail/
-	
+
 	sformmail.php - 本体
 	sformmail.html - 入力フォーム
 	sformmail.css - 共通スタイルシート
@@ -15,7 +15,7 @@
 	completion.html - 送信完了画面
 	template.php - メール送信用テンプレート
 	reply.php - 自動返信用テンプレート
-	
+
 	フォームのnameに「;s」オプションをつけると
 	必須項目扱いになります。
 	例) name="comment;s"
@@ -23,14 +23,14 @@
 	nameにemailcheckを指定するとメールアドレスの再入力の確認を
 	することができます。
 	※emailを使わない場合、emailcheckも利用しないようにして下さい。
-	
+
 	入力画面もしくは確認画面で
 	「autoReply」に対して「1」を渡すと入力されたメールアドレスに
 	自動返信をします。
 	例）<input name="autoReply" type="hidden" value="1" />
 	or　<input name="autoReply" type="checkbox" value="1" />
 	※emailの項目がない場合は無効になります。
-	
+
 	確認画面用(confirm.php)には非表示フィールドで
 	「mode」に対して「SEND」を必ず渡して下さい。
 	例）<input name="mode" type="hidden" value="SEND" />
@@ -90,10 +90,10 @@ case 'SEND': // メール送信
 		$reply_message = mb_convert_encoding($reply_message, $internal_enc, 'AUTO');
 		mb_send_mail($mail_from, $reply_subject, $reply_message, $reply_header);
 	}
-	$_SESSION = array(); 
+	$_SESSION = array();
 	session_unset();
 	session_destroy();
-	header('Location: completion.html');
+	header('Location: complition.html');
 	break;
 
 default: // 入力データ処理
@@ -101,7 +101,7 @@ default: // 入力データ処理
 	foreach ($_POST as $key => $value) {
 		list($name, $option) = explode(";", $key);
 		if ($option == 's' && !$value) {
-			$_SESSION[$name] = '<span class="ERR">必須項目です</span>';
+			$_SESSION[$name] = '<span class="label label-danger">必須項目です</span>';
 			$error = 1;
 		} elseif ($name == 'email' && $value) {
 			if (!preg_match("/^[\w\-\.]+\@[\w\-\.]+\.([a-z]+)$/", $value)) {

@@ -2,7 +2,7 @@
 //セッションを利用するのでここは削除しないで下さい
 session_start();
 if (SID) Err('Cookieを有効にして下さい');
-if (!$_SESSION) header('Location: completion.html');
+if (!$_SESSION) header('Location: complition.html');
 
 function Err($err) {
 	echo <<< EOM
