@@ -13,3 +13,5 @@ gem 'middleman', '>= 4.0.0'
 
 # auto browser reload
 gem 'middleman-livereload'
+
+gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
