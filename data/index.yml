@@ -1,28 +1,3 @@
-development_records:
-  - image: ana_soramite_thumb.jpg
-    title: soramite ANAスカイコミュニティ
-    thumbnail_image: ana_soramite_thumb.jpg
-    desctiption: ANAグループOG・OBの方のみご入会いただける会員制サイトを開発いたしました。
-  - image: ikidane.jpg
-    title: IKIDANE NIPPONチャットサーバ
-    thumbnail_image: ikidane.jpg
-    desctiption: 訪日外国人向けアプリのチャットサーバ部分を開発いたしました。Ruby on Rails 5の新機能である、Action Cableを用いております。
-  - image: penguin.jpg
-    title: ペンギンドット.
-    thumbnail_image: penguin.jpg
-    desctiption: 介護コミュニティの検索や活動発信が簡単にできるサイトです。コミュニティ主催者の情報発信も手軽で、運営によるブログ発信も可能です。
-  - image: spstation.jpg
-    title: スロパチステーション
-    thumbnail_image: spstation_thumb.jpg
-    desctiption: ユーザー自身の情報ニーズに沿ってカスタマイズできるニュースアプリです。iOSおよびAndroid版を開発致しました
-  - image: renotta.jpg
-    title: 顧客向け情報配信システム
-    thumbnail_image: renotta.jpg
-    desctiption: 賃貸物件に関する情報を登録者向けに配信するＷＥＢシステムを、Ruby on Railsで構築しました。PDFやExcelはもちろん、動画や３Ｄデータなど様々なメディアを配信することが可能となっています。
-  - image: sumagebu.jpg
-    title: スマホゲーム特化型ニュースアプリ
-    thumbnail_image: sumagebu_thumb.jpg
-    desctiption: スマホゲームの攻略情報等に特化したニュースアプリです。対象ユーザーである若年層が使いやすいよう、タブ型デザインはキャッチーなデザインとしました。
 members:
   - image: nashiro.jpg
     name: 名城 大佑

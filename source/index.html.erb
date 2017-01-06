@@ -110,7 +110,7 @@
         <div class='row'>
           <section id='projects'>
             <ul class='portfolio' id='thumbs'>
-              <% data.index.development_records.each do |record| %>
+              <% data.work.development_records.each_with_index do |record, idx| %>
                 <li class='item-thumbs col-lg-4 col-md-6 photography' data-id='id-0' data-type='app'>
                 <% link_to "assets/images/#{record.image}", class: 'hover-wrap fancybox', 'data-fancybox-group' => 'gallery', title: record.title do %>
                   <span class='overlay-img'></span>
@@ -118,6 +118,7 @@
                 <% end %>
                 <%= image_tag record.thumbnail_image, alt: record.desctiption %>
                 </li>
+                <% break if idx == 5 %>
               <% end %>
             </ul>
           </section>
