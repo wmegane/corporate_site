@@ -28,6 +28,9 @@ production-deploy:
     - bundle-install:
         jobs: 4
     - script:
+        name: set env
+        code: export RUBYOPT=-EUTF-8
+    - script:
         name: html code build
         code: middleman build
     - script:
