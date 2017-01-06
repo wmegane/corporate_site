@@ -44,7 +44,7 @@ categories:
           <section id='projects'>
             <ul class='portfolio' id='thumbs'>
               <% data.work.development_records.each do |record| %>
-                <li class='item-thumbs col-lg-3 col-md-4 col-sm-6 design' data-id='id-1' data-type='app'>
+                <li class='item-thumbs col-lg-3 col-md-4 col-sm-6 design' data-id='id-1' data-type=<%= record.type %>>
                 <% link_to "assets/images/#{record.image}", class: 'hover-wrap fancybox', 'data-fancybox-group' => 'gallery', title: record.title do %>
                   <span class='overlay-img'></span>
                   <span class='overlay-img-thumb font-icon-plus'></span>
