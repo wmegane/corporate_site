@@ -1,4 +1,16 @@
 development_records:
+  - image: ana_soramite_thumb.jpg
+    title: soramite ANAスカイコミュニティ
+    thumbnail_image: ana_soramite_thumb.jpg
+    desctiption: ANAグループOG・OBの方のみご入会いただける会員制サイトを開発いたしました。
+  - image: ikidane.jpg
+    title: IKIDANE NIPPONチャットサーバ
+    thumbnail_image: ikidane.jpg
+    desctiption: 訪日外国人向けアプリのチャットサーバ部分を開発いたしました。Ruby on Rails 5の新機能である、Action Cableを用いております。
+  - image: penguin.jpg
+    title: ペンギンドット.
+    thumbnail_image: penguin.jpg
+    desctiption: 介護コミュニティの検索や活動発信が簡単にできるサイトです。コミュニティ主催者の情報発信も手軽で、運営によるブログ発信も可能です。
   - image: spstation.jpg
     title: スロパチステーション
     thumbnail_image: spstation_thumb.jpg
@@ -11,18 +23,6 @@ development_records:
     title: スマホゲーム特化型ニュースアプリ
     thumbnail_image: sumagebu_thumb.jpg
     desctiption: スマホゲームの攻略情報等に特化したニュースアプリです。対象ユーザーである若年層が使いやすいよう、タブ型デザインはキャッチーなデザインとしました。
-  - image: seminar.jpg
-    title: 同窓生交流サイト
-    thumbnail_image: seminar.jpg
-    desctiption: 大学の同窓生向け交流サイトです。大学に関する新着記事の投稿や、ユーザー間でのフレンド申請やメッセージ送信なども可能になっています。
-  - image: camp.jpg
-    title: 初級者向けプログラミング講師（Ruby on Rails ）
-    thumbnail_image: camp.jpg
-    desctiption: 1日10時間×8日間にわたる長期間のプログラミングコースを担当。カリキュラム立案から教材制作、およびその講義までをカバー。Ruby on Railsは初心者にとって難易度が高いフレームワークですが、受講生の完遂率はほぼ100%に及びました。
-  - image: lifesnap.jpg
-    title: 出張撮影予約管理システム
-    thumbnail_image: lifesnap.jpg
-    desctiption: お客様からの出張依頼を管理するＷＥＢシステムを、Ruby on Railsで構築しました。カレンダーで予約一覧を確認することもできます。
 members:
   - image: nashiro.jpg
     name: 名城 大佑

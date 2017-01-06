@@ -1,4 +1,16 @@
 development_records:
+  - image: ana_soramite_thumb.jpg
+    title: soramite ANAスカイコミュニティ
+    thumbnail_image: ana_soramite_thumb.jpg
+    desctiption: ANAグループOG・OBの方のみご入会いただける会員制サイトを開発いたしました。
+  - image: ikidane.jpg
+    title: IKIDANE NIPPONチャットサーバ
+    thumbnail_image: ikidane.jpg
+    desctiption: 訪日外国人向けアプリのチャットサーバ部分を開発いたしました。Ruby on Rails 5の新機能である、Action Cableを用いております。
+  - image: penguin.jpg
+    title: ペンギンドット.
+    thumbnail_image: penguin.jpg
+    desctiption: 介護コミュニティの検索や活動発信が簡単にできるサイトです。コミュニティ主催者の情報発信も手軽で、運営によるブログ発信も可能です。
   - image: spstation.jpg
     title: スロパチステーション
     thumbnail_image: spstation_thumb.jpg
