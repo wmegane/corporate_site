@@ -36,8 +36,8 @@ production-deploy:
     - script:
         name: deploy use ftp
         code: middleman deploy
-  # after-steps:
-  #   - slack-notifier:
-  #       url: https://hooks.slack.com/services/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
-  #       channel: general
-  #       username: wercker
+  after-steps:
+    - slack-notifier:
+        url: https://hooks.slack.com/services/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
+        channel: general
+        username: wercker
