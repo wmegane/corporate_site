@@ -147,7 +147,7 @@
       <% data.index.members.each do |member| %>
         <div class='col-lg-4 col-sm-6'>
           <div class='card hovercard'>
-            <%= image_tag member.image, class: 'cardheader', alt: 'hoge' %>
+            <%= image_tag member.image, class: 'cardheader', alt: 'member-image' %>
             <div class='avatar'>
               <%= image_tag member.image %>
             </div>
@@ -157,10 +157,16 @@
               </div>
               <div class='desc'>
                 <p>
+                  <%= member.position %>
+                </p>
+                <p>
                   <%= member.desctiption %>
                 </p>
                 <p>
                   <%= member.skill %>
+                </p>
+                <p>
+                  <%= member.qualification %>
                 </p>
               </div>
             </div>
