@@ -2,27 +2,9 @@ members:
   - image: nashiro.jpg
     name: 名城 大佑
     position: 代表取締役
-    desctiption: ダブルメガネの楽観サイド担当。とりあえず「できます」とは言うものの、その回収に頭をひねる毎日。
+    desctiption: とりあえず「できます」とは言うものの、その回収に頭をひねる毎日。
     skill: 担当：AWS / iOS / Ruby on Rails
     qualification: 資格：中小企業診断士 / Ruby技術者Gold(ver2.1)
-  - image: ishisaki.jpg
-    name: 石崎 修也
-    position: CTO
-    desctiption: ダブルメガネの悲観サイド担当。基本的に物事はうまくいかないと思うので、慎重にやっていくことがモットーです。
-    skill: 担当：AWS / iOS / Android / Ruby
-    qualification: 資格：中小企業診断士 / Ruby技術者Gold(ver2.1)
-  - image: yoshida.jpg
-    name: 吉田 智也
-    position: ソフトウェア開発
-    desctiption: 岩手県からリモートで業務に当たるエンジニア。テニスはセミプロレベルで、文化系の当社では異質な存在となっている。
-    skill: 担当：Ruby on Rails
-    qualification: 資格：Ruby技術者Gold(ver2.1)
-  - image: shimada.jpg
-    name: 島田 朋也
-    position: ソフトウェア開発
-    desctiption: 社内最若手のフレッシュなエンジニア。のはずだが、将棋をこよなく愛し、慎重な性格でおじいちゃん扱いされている。
-    skill: 担当：Ruby on Rails / セキュリティ
-    qualification: 資格：情報処理安全確保支援士 / Ruby技術者Gold(ver2.1)
   - image: ohira.jpg
     name: 大平 道介
     position: 機械学習開発
