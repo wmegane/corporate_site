@@ -10,7 +10,7 @@ campany_informations:
   - header: 資本金
     data: 100万円
   - header: 役員
-    data: 代表取締役社長　名城大佑<br>代表取締役　石崎修也</br>
+    data: 代表取締役社長　名城大佑</br>
   - header: 事業内容
     data: '<ul>
             <li>スマートフォンアプリサービス開発・運営</li>
