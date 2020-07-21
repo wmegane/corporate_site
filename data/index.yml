@@ -7,10 +7,16 @@ members:
     qualification: 資格：中小企業診断士 / Ruby技術者Gold(ver2.1)
   - image: ooba.jpg
     name: 大場 昌貴
-    position: バックエンド開発全般
+    position: バックエンド開発
     desctiption: リモートワーク開発＠長野。職人気質で丁寧な仕事ながら、開発スピードはなぜか速い。
     skill: 担当：Ruby／Javascript／Vue.js
     qualification: 資格：Ruby技術者Silver(ver2.1)
+  - image: takihara.jpg
+    name: 瀧原 界
+    position: バックエンド開発
+    desctiption: フロントが苦手なメンバーの中で、唯一の見識者。Aphex Twin以外は聴かないらしい。
+    skill: 担当：PHP／Ruby／Javascript
+    qualification: 資格：なし
   - image: ohira.jpg
     name: 大平 道介
     position: 機械学習開発
