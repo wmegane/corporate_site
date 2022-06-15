@@ -11,6 +11,12 @@ members:
     desctiption: フロントが苦手なメンバーの中で、唯一の見識者。Aphex Twin以外は聴かないらしい。
     skill: 担当：PHP／Ruby／Javascript
     qualification: 資格：なし
+  - image: hoshikawa.jpg
+    name: 星川 真子
+    position: バックエンド開発
+    desctiption: 関西在住。目の前の仕事を粛々とこなすため、当社では貴重なタレント…。
+    skill: 担当：Ruby
+    qualification: 資格：Ruby技術者Gold(ver2.1)
   - image: fukuoka.jpg
     name: 福岡 英人
     position: バックオフィス全般
