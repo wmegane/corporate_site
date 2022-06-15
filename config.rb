@@ -45,12 +45,4 @@ configure :build do
   config[:host] = 'http://wmegane.com'
 end
 
-activate :deploy do |deploy|
-  deploy.deploy_method = :ftp
-  deploy.host          = 'users408.lolipop.jp'
-  deploy.path          = '/wmegane'
-  deploy.user          = 'but.jp-wmegane'
-  deploy.password      = 'megane7414'
-end
-
 # middleman server => http://localhost:4567/__middleman/ you can see config
