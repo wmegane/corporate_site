@@ -42,7 +42,7 @@ configure :build do
 
   # Minify Javascript on build
   # activate :minify_javascript
-  config[:host] = 'http://wmegane.com'
+  config[:host] = 'https://wmegane.com'
 end
 
 # middleman server => http://localhost:4567/__middleman/ you can see config
