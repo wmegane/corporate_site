@@ -13,7 +13,7 @@ $ bundle exec middleman server
 
 # or
 
-$ dundle exec middleman
+$ bundle exec middleman
 
 ```
 
