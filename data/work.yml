@@ -4,6 +4,21 @@ development_records:
     thumbnail_image: ana_soramite_thumb.jpg
     desctiption: ANAグループOG・OBの方のみご入会いただける会員制サイトを開発いたしました。
     type: web
+  - image: dayservice_navi_thumb.png
+    title: デイサービスナビ
+    thumbnail_image: dayservice_navi_thumb.jpg
+    desctiption: 全国のデイサービス検索サイトの運用・保守を担当いたしました
+    type: web
+  - image: nurse_senka_thumb.png
+    title: ナース専科
+    thumbnail_image: nurse_senka_thumb.png
+    desctiption: 看護師・看護学生のコミュニティサイトの運用・保守を担当いたしました
+    type: web
+  - image: eventsupporter_thumb.png
+    title: イベントサポーター
+    thumbnail_image: eventsupporter_thumb.png
+    desctiption: 大規模B2Bイベントの運営アプリケーションの開発いたしました
+    type: web
   - image: ikidane.jpg
     title: IKIDANE NIPPONチャットサーバ
     thumbnail_image: ikidane.jpg
