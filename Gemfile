@@ -15,3 +15,6 @@ gem 'middleman', '>= 4.0.0'
 gem 'middleman-livereload'
 
 # gem 'therubyracer'
+
+# Ruby 3.4+ compatibility (mutex_m removed from stdlib)
+gem 'mutex_m'
