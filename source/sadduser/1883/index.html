@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>【ダミー】OfferBox 会員登録フォーム</title>
+    <!-- port_development アカウント／chai_development コンテナ（GTM-NVVCQ5K） -->
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NVVCQ5K');</script>
+    <!-- End Google Tag Manager -->
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NVVCQ5K"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <h1>【ダミー】OfferBox 新規登録フォーム (lid=1883)</h1>
+    <p>キャリアパークからの遷移テスト用画面です。</p>
+
+    <hr />
+
+    <form id="dummy-form">
+      <div>
+        <label>お名前：<input type="text" name="name" value="テスト太郎" required /></label>
+      </div>
+      <div style="margin-top: 10px">
+        <label>メールアドレス：<input type="email" name="email" value="test@example.com" required /></label>
+      </div>
+      <div style="margin-top: 15px">
+        <button type="submit" style="padding: 10px 20px; font-weight: bold">同意して登録する（ダミー）</button>
+      </div>
+    </form>
+
+    <script>
+      // フォーム送信時の挙動をエミュレート
+      document.getElementById('dummy-form').addEventListener('submit', function (e) {
+        e.preventDefault(); // 実際のPOST通信をスキップ
+
+        alert('フォーム送信成功。完了ページへ遷移します。');
+
+        // 設計書通りの完了URL（パラメータ付き）へ画面遷移
+        window.location.href = '../done/?lid=1883';
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>【ダミー】OfferBox 卒年選択 (studentlp)</title>
+    <!-- port_development アカウント／chai_development コンテナ（GTM-NVVCQ5K） -->
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NVVCQ5K');</script>
+    <!-- End Google Tag Manager -->
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NVVCQ5K"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <h1>【ダミー】OfferBox 卒年選択ページ (offerbox.jp/studentlp)</h1>
+    <p>キャリアパークから「画面を挟む遷移」で最初に着地するページです。</p>
+    <p>URLパラメータに <code>cp_uid</code> が含まれている場合、Cookie（.offerbox.jp）に保存されます。</p>
+
+    <hr />
+
+    <div style="margin: 20px 0">
+      <button
+        id="btn-next"
+        style="
+          padding: 15px 30px;
+          font-weight: bold;
+          background-color: #007bff;
+          color: white;
+          border: none;
+          cursor: pointer;
+          margin-right: 10px;
+        "
+      >
+        27年卒フォームへ進む (app.offerbox.jp側のフォームへ)
+      </button>
+
+      <button
+        id="btn-alert"
+        style="
+          padding: 15px 30px;
+          font-weight: bold;
+          background-color: #6c757d;
+          color: white;
+          border: none;
+          cursor: pointer;
+        "
+      >
+        28年卒フォーム（遷移しません。アラート出すだけ。）
+      </button>
+    </div>
+
+    <script>
+      // ボタン1: 別サブドメインのフォーム画面へ遷移
+      // ※このときURLに cp_uid は引き継がない本番通りの挙動にします
+      document.getElementById('btn-next').addEventListener('click', function () {
+        window.location.href = 'https://app.offerbox.jp/sadduser/1883/';
+      });
+
+      // ボタン2: 指定のアラートダイアログを表示
+      document.getElementById('btn-alert').addEventListener('click', function () {
+        alert('28卒クリック');
+      });
+    </script>
+  </body>
+</html>

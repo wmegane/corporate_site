@@ -79,6 +79,7 @@ GEM
       middleman-core (>= 3.3)
       rack-livereload (~> 0.3.15)
     minitest (5.19.0)
+    mutex_m (0.3.0)
     padrino-helpers (0.15.1)
       i18n (>= 0.6.7, < 2)
       padrino-support (= 0.15.1)
@@ -115,6 +116,7 @@ PLATFORMS
 DEPENDENCIES
   middleman (>= 4.0.0)
   middleman-livereload
+  mutex_m
   tzinfo-data
   wdm (~> 0.1.0)
 
